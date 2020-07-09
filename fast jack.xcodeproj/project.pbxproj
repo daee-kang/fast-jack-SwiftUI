@@ -13,6 +13,9 @@
 		C2F46BD624B6D51A00AD3C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F46BD524B6D51A00AD3C47 /* Assets.xcassets */; };
 		C2F46BD924B6D51A00AD3C47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F46BD824B6D51A00AD3C47 /* Preview Assets.xcassets */; };
 		C2F46BDC24B6D51A00AD3C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F46BDA24B6D51A00AD3C47 /* LaunchScreen.storyboard */; };
+		C2F46BE424B6D56300AD3C47 /* BlackJack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F46BE324B6D56300AD3C47 /* BlackJack.swift */; };
+		C2F46BE624B6D57E00AD3C47 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F46BE524B6D57E00AD3C47 /* Game.swift */; };
+		C2F46BE824B6D6A200AD3C47 /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F46BE724B6D6A200AD3C47 /* Round.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C2F46BD824B6D51A00AD3C47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2F46BDB24B6D51A00AD3C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2F46BDD24B6D51A00AD3C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F46BE324B6D56300AD3C47 /* BlackJack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJack.swift; sourceTree = "<group>"; };
+		C2F46BE524B6D57E00AD3C47 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C2F46BE724B6D6A200AD3C47 /* Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				C2F46BCF24B6D51800AD3C47 /* AppDelegate.swift */,
 				C2F46BD124B6D51800AD3C47 /* SceneDelegate.swift */,
 				C2F46BD324B6D51800AD3C47 /* ContentView.swift */,
+				C2F46BE524B6D57E00AD3C47 /* Game.swift */,
+				C2F46BE724B6D6A200AD3C47 /* Round.swift */,
+				C2F46BE324B6D56300AD3C47 /* BlackJack.swift */,
 				C2F46BD524B6D51A00AD3C47 /* Assets.xcassets */,
 				C2F46BDA24B6D51A00AD3C47 /* LaunchScreen.storyboard */,
 				C2F46BDD24B6D51A00AD3C47 /* Info.plist */,
@@ -146,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F46BE424B6D56300AD3C47 /* BlackJack.swift in Sources */,
+				C2F46BE624B6D57E00AD3C47 /* Game.swift in Sources */,
 				C2F46BD024B6D51800AD3C47 /* AppDelegate.swift in Sources */,
 				C2F46BD224B6D51800AD3C47 /* SceneDelegate.swift in Sources */,
+				C2F46BE824B6D6A200AD3C47 /* Round.swift in Sources */,
 				C2F46BD424B6D51800AD3C47 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
